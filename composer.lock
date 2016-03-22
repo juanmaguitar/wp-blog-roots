@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e370a6ad8851ddcb654f92da5c0cc7cf",
-    "content-hash": "3bbac1f21da69deb689ead780ac71705",
+    "hash": "bfe052ea074153f03aa298b39e828bf1",
+    "content-hash": "046758bf441854ce8a50149023333355",
     "packages": [
         {
             "name": "composer/installers",
@@ -104,6 +104,20 @@
                 "zikula"
             ],
             "time": "2016-01-27 12:54:22"
+        },
+        {
+            "name": "custom/better-wp-security",
+            "version": "5.3.4",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/better-wp-security.latest-stable.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0.12"
+            },
+            "type": "wordpress-plugin"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -324,6 +338,46 @@
                 "environment"
             ],
             "time": "2015-12-29 15:10:30"
+        },
+        {
+            "name": "wpackagist-plugin/debug-bar",
+            "version": "0.8.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/debug-bar/",
+                "reference": "tags/0.8.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/debug-bar.0.8.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/debug-bar/"
+        },
+        {
+            "name": "wpackagist-plugin/debug-bar-actions-and-filters-addon",
+            "version": "1.5.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/debug-bar-actions-and-filters-addon/",
+                "reference": "tags/1.5.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/debug-bar-actions-and-filters-addon.1.5.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/debug-bar-actions-and-filters-addon/"
         },
         {
             "name": "wpackagist-plugin/vimeography",
